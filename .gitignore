@@ -1,0 +1,8 @@
+/Abdur_Rafay_Lab40.odt
+task_*/*.log
+task_*/qaLog.txt
+task_*/.simvision
+task_*/xrun.key
+task_*/xrun.history
+task_*/cov_work
+task_*/xcelium.d
