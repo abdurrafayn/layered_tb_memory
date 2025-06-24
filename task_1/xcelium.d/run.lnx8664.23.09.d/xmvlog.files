@@ -1,0 +1,13 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+/home/cc/Downloads/Abdur_Rafay_Data/Lab40-Layered_testbench/Task1/transaction.sv
+/home/cc/Downloads/Abdur_Rafay_Data/Lab40-Layered_testbench/Task1/interface.sv
+/home/cc/Downloads/Abdur_Rafay_Data/Lab40-Layered_testbench/Task1/generator.sv
+/home/cc/Downloads/Abdur_Rafay_Data/Lab40-Layered_testbench/Task1/driver.sv
+/home/cc/Downloads/Abdur_Rafay_Data/Lab40-Layered_testbench/Task1/monitor.sv
+/home/cc/Downloads/Abdur_Rafay_Data/Lab40-Layered_testbench/Task1/scoreboard.sv
+/home/cc/Downloads/Abdur_Rafay_Data/Lab40-Layered_testbench/Task1/mem.sv
+/home/cc/Downloads/Abdur_Rafay_Data/Lab40-Layered_testbench/Task1/env.sv
+/home/cc/Downloads/Abdur_Rafay_Data/Lab40-Layered_testbench/Task1/testbench.sv

@@ -1,0 +1,4028 @@
+xrun(64): 23.09-s006: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	23.09-s006: Started on Jun 18, 2025 at 19:28:16 PKT
+xrun
+	-f file.f
+		./transaction.sv
+		./interface.sv
+		./generator.sv
+		./driver.sv
+		./monitor.sv
+		./scoreboard.sv
+		./mem.sv
+		./env.sv
+		./testbench.sv
+	-access +rwc
+	-gui
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+Recompiling... reason: file './testbench.sv' is newer than expected.
+	expected: Wed Jun 18 19:23:02 2025
+	actual:   Wed Jun 18 19:28:11 2025
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xmvlog: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+file: ./testbench.sv
+	module worklib.testb_top:sv
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 15
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xmelab: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		$unit_0x44bc2e03
+		testb_top
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+DEFINE std       ./STD
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xmvlog_cg: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+		worklib.testb_top:sv <0x4e08b0e1>
+			streams:   4, words:  1696
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                     Instances  Unique
+		Modules:                     2       2
+		Interfaces:                  1       1
+		Registers:                  45      77
+		Scalar wires:                1       -
+		Named events:                1       3
+		Always blocks:               2       2
+		Initial blocks:              2       2
+		Parallel blocks:             1       1
+		Pseudo assignments:          1       -
+		Compilation units:           1       1
+		SV Class declarations:       6       6
+		SV Class specializations:    6       6
+		Process Clocks:              1       1
+		Simulation timescale:      1ns
+	Writing initial simulation snapshot: worklib.testb_top:sv
+DEFINE std       ./STD
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xmsim: *W,DLCPTH (/home/cc/mnt/XCELIUM2309/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/home/cc/mnt/XCELIUM2309/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+xmsim: *W,NOMTDGUI: Multi-Threaded Dumping is disabled for interactive debug mode.
+SVSEED default: 1
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /home/cc/mnt/XCELIUM2309/tools/xcelium/files/xmsimrc
+xcelium> run
+stop -create -name Randomize -randomize
+Created stop Randomize
+
+---------------------------------------------------
+Transaction # 1 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 27
+Data IN: 29
+Data OUT: 0
+---------------------------------------------------
+Transaction # 2 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 8
+Data IN: 98
+Data OUT: 0
+---------------------------------------------------
+Transaction # 3 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 29
+Data IN: 140
+Data OUT: 0
+---------------------------------------------------
+Transaction # 4 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 9
+Data IN: 132
+Data OUT: 0
+---------------------------------------------------
+Transaction # 5 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 27
+Data IN: 134
+Data OUT: 0
+---------------------------------------------------
+Transaction # 6 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 10
+Data IN: 172
+Data OUT: 0
+---------------------------------------------------
+Transaction # 7 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 2
+Data IN: 220
+Data OUT: 0
+---------------------------------------------------
+Transaction # 8 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 3
+Data IN: 15
+Data OUT: 0
+---------------------------------------------------
+Transaction # 9 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 5
+Data IN: 122
+Data OUT: 0
+---------------------------------------------------
+Transaction # 10 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 12
+Data IN: 195
+Data OUT: 0
+---------------------------------------------------
+Transaction # 11 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 13
+Data IN: 49
+Data OUT: 0
+---------------------------------------------------
+Transaction # 12 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 25
+Data IN: 146
+Data OUT: 0
+---------------------------------------------------
+Transaction # 13 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 22
+Data IN: 40
+Data OUT: 0
+---------------------------------------------------
+Transaction # 14 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 15
+Data IN: 152
+Data OUT: 0
+---------------------------------------------------
+Transaction # 15 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 24
+Data IN: 21
+Data OUT: 0
+---------------------------------------------------
+Transaction # 16 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 9
+Data IN: 65
+Data OUT: 0
+---------------------------------------------------
+Transaction # 17 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 4
+Data IN: 154
+Data OUT: 0
+---------------------------------------------------
+Transaction # 18 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 15
+Data IN: 212
+Data OUT: 0
+---------------------------------------------------
+Transaction # 19 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 24
+Data IN: 218
+Data OUT: 0
+---------------------------------------------------
+Transaction # 20 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 4
+Data IN: 61
+Data OUT: 0
+---------------------------------------------------
+Transaction # 21 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 30
+Data IN: 149
+Data OUT: 0
+---------------------------------------------------
+Transaction # 22 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 1
+Data IN: 139
+Data OUT: 0
+---------------------------------------------------
+Transaction # 23 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 29
+Data IN: 169
+Data OUT: 0
+---------------------------------------------------
+Transaction # 24 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 2
+Data IN: 197
+Data OUT: 0
+---------------------------------------------------
+Transaction # 25 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 4
+Data IN: 233
+Data OUT: 0
+---------------------------------------------------
+Transaction # 26 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 23
+Data IN: 175
+Data OUT: 0
+---------------------------------------------------
+Transaction # 27 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 18
+Data IN: 196
+Data OUT: 0
+---------------------------------------------------
+Transaction # 28 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 4
+Data IN: 224
+Data OUT: 0
+---------------------------------------------------
+Transaction # 29 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 4
+Data IN: 73
+Data OUT: 0
+---------------------------------------------------
+Transaction # 30 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 24
+Data IN: 115
+Data OUT: 0
+---------------------------------------------------
+Transaction # 31 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 19
+Data IN: 130
+Data OUT: 0
+---------------------------------------------------
+Transaction # 32 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 21
+Data IN: 138
+Data OUT: 0
+---------------------------------------------------
+Transaction # 33 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 9
+Data IN: 64
+Data OUT: 0
+---------------------------------------------------
+Transaction # 34 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 27
+Data IN: 119
+Data OUT: 0
+---------------------------------------------------
+Transaction # 35 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 11
+Data IN: 159
+Data OUT: 0
+---------------------------------------------------
+Transaction # 36 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 12
+Data IN: 158
+Data OUT: 0
+---------------------------------------------------
+Transaction # 37 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 20
+Data IN: 134
+Data OUT: 0
+---------------------------------------------------
+Transaction # 38 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 0
+Data IN: 205
+Data OUT: 0
+---------------------------------------------------
+Transaction # 39 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 15
+Data IN: 29
+Data OUT: 0
+---------------------------------------------------
+Transaction # 40 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 26
+Data IN: 92
+Data OUT: 0
+---------------------------------------------------
+Transaction # 41 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 30
+Data IN: 106
+Data OUT: 0
+---------------------------------------------------
+Transaction # 42 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 6
+Data IN: 9
+Data OUT: 0
+---------------------------------------------------
+Transaction # 43 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 11
+Data IN: 254
+Data OUT: 0
+---------------------------------------------------
+Transaction # 44 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 21
+Data IN: 68
+Data OUT: 0
+---------------------------------------------------
+Transaction # 45 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 15
+Data IN: 144
+Data OUT: 0
+---------------------------------------------------
+Transaction # 46 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 5
+Data IN: 140
+Data OUT: 0
+---------------------------------------------------
+Transaction # 47 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 12
+Data IN: 195
+Data OUT: 0
+---------------------------------------------------
+Transaction # 48 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 26
+Data IN: 65
+Data OUT: 0
+---------------------------------------------------
+Transaction # 49 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 20
+Data IN: 195
+Data OUT: 0
+---------------------------------------------------
+Transaction # 50 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 6
+Data IN: 50
+Data OUT: 0
+---------------------------------------------------
+Transaction # 51 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 15
+Data IN: 117
+Data OUT: 0
+---------------------------------------------------
+Transaction # 52 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 15
+Data IN: 237
+Data OUT: 0
+---------------------------------------------------
+Transaction # 53 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 19
+Data IN: 237
+Data OUT: 0
+---------------------------------------------------
+Transaction # 54 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 18
+Data IN: 96
+Data OUT: 0
+---------------------------------------------------
+Transaction # 55 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 16
+Data IN: 154
+Data OUT: 0
+---------------------------------------------------
+Transaction # 56 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 2
+Data IN: 112
+Data OUT: 0
+---------------------------------------------------
+Transaction # 57 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 27
+Data IN: 0
+Data OUT: 0
+---------------------------------------------------
+Transaction # 58 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 21
+Data IN: 176
+Data OUT: 0
+---------------------------------------------------
+Transaction # 59 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 1
+Data IN: 15
+Data OUT: 0
+---------------------------------------------------
+Transaction # 60 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 26
+Data IN: 160
+Data OUT: 0
+---------------------------------------------------
+Transaction # 61 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 29
+Data IN: 109
+Data OUT: 0
+---------------------------------------------------
+Transaction # 62 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 18
+Data IN: 167
+Data OUT: 0
+---------------------------------------------------
+Transaction # 63 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 15
+Data IN: 65
+Data OUT: 0
+---------------------------------------------------
+Transaction # 64 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 14
+Data IN: 189
+Data OUT: 0
+---------------------------------------------------
+Transaction # 65 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 7
+Data IN: 59
+Data OUT: 0
+---------------------------------------------------
+Transaction # 66 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 11
+Data IN: 120
+Data OUT: 0
+---------------------------------------------------
+Transaction # 67 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 25
+Data IN: 165
+Data OUT: 0
+---------------------------------------------------
+Transaction # 68 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 24
+Data IN: 10
+Data OUT: 0
+---------------------------------------------------
+Transaction # 69 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 0
+Data IN: 141
+Data OUT: 0
+---------------------------------------------------
+Transaction # 70 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 31
+Data IN: 109
+Data OUT: 0
+---------------------------------------------------
+Transaction # 71 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 9
+Data IN: 243
+Data OUT: 0
+---------------------------------------------------
+Transaction # 72 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 18
+Data IN: 7
+Data OUT: 0
+---------------------------------------------------
+Transaction # 73 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 23
+Data IN: 174
+Data OUT: 0
+---------------------------------------------------
+Transaction # 74 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 5
+Data IN: 192
+Data OUT: 0
+---------------------------------------------------
+Transaction # 75 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 14
+Data IN: 159
+Data OUT: 0
+---------------------------------------------------
+Transaction # 76 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 19
+Data IN: 181
+Data OUT: 0
+---------------------------------------------------
+Transaction # 77 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 27
+Data IN: 233
+Data OUT: 0
+---------------------------------------------------
+Transaction # 78 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 0
+Data IN: 204
+Data OUT: 0
+---------------------------------------------------
+Transaction # 79 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 18
+Data IN: 7
+Data OUT: 0
+---------------------------------------------------
+Transaction # 80 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 20
+Data IN: 95
+Data OUT: 0
+---------------------------------------------------
+Transaction # 81 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 17
+Data IN: 101
+Data OUT: 0
+---------------------------------------------------
+Transaction # 82 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 8
+Data IN: 241
+Data OUT: 0
+---------------------------------------------------
+Transaction # 83 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 23
+Data IN: 93
+Data OUT: 0
+---------------------------------------------------
+Transaction # 84 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 28
+Data IN: 209
+Data OUT: 0
+---------------------------------------------------
+Transaction # 85 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 3
+Data IN: 166
+Data OUT: 0
+---------------------------------------------------
+Transaction # 86 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 15
+Data IN: 116
+Data OUT: 0
+---------------------------------------------------
+Transaction # 87 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 30
+Data IN: 50
+Data OUT: 0
+---------------------------------------------------
+Transaction # 88 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 0
+Data IN: 239
+Data OUT: 0
+---------------------------------------------------
+Transaction # 89 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 7
+Data IN: 82
+Data OUT: 0
+---------------------------------------------------
+Transaction # 90 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 20
+Data IN: 194
+Data OUT: 0
+---------------------------------------------------
+Transaction # 91 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 23
+Data IN: 139
+Data OUT: 0
+---------------------------------------------------
+Transaction # 92 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 1
+Data IN: 172
+Data OUT: 0
+---------------------------------------------------
+Transaction # 93 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 13
+Data IN: 72
+Data OUT: 0
+---------------------------------------------------
+Transaction # 94 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 10
+Data IN: 37
+Data OUT: 0
+---------------------------------------------------
+Transaction # 95 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 29
+Data IN: 35
+Data OUT: 0
+---------------------------------------------------
+Transaction # 96 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 13
+Data IN: 221
+Data OUT: 0
+---------------------------------------------------
+Transaction # 97 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 28
+Data IN: 254
+Data OUT: 0
+---------------------------------------------------
+Transaction # 98 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 29
+Data IN: 239
+Data OUT: 0
+---------------------------------------------------
+Transaction # 99 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 24
+Data IN: 124
+Data OUT: 0
+---------------------------------------------------
+Transaction # 100 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 26
+Data IN: 236
+Data OUT: 0
+---------------------------------------------------
+Transaction # 101 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 23
+Data IN: 73
+Data OUT: 0
+---------------------------------------------------
+Transaction # 102 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 24
+Data IN: 242
+Data OUT: 0
+---------------------------------------------------
+Transaction # 103 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 28
+Data IN: 24
+Data OUT: 0
+---------------------------------------------------
+Transaction # 104 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 27
+Data IN: 110
+Data OUT: 0
+---------------------------------------------------
+Transaction # 105 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 0
+Data IN: 142
+Data OUT: 0
+---------------------------------------------------
+Transaction # 106 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 11
+Data IN: 39
+Data OUT: 0
+---------------------------------------------------
+Transaction # 107 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 3
+Data IN: 171
+Data OUT: 0
+---------------------------------------------------
+Transaction # 108 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 0
+Data IN: 166
+Data OUT: 0
+---------------------------------------------------
+Transaction # 109 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 28
+Data IN: 254
+Data OUT: 0
+---------------------------------------------------
+Transaction # 110 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 25
+Data IN: 110
+Data OUT: 0
+---------------------------------------------------
+Transaction # 111 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 15
+Data IN: 194
+Data OUT: 0
+---------------------------------------------------
+Transaction # 112 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 29
+Data IN: 16
+Data OUT: 0
+---------------------------------------------------
+Transaction # 113 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 29
+Data IN: 118
+Data OUT: 0
+---------------------------------------------------
+Transaction # 114 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 8
+Data IN: 24
+Data OUT: 0
+---------------------------------------------------
+Transaction # 115 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 17
+Data IN: 7
+Data OUT: 0
+---------------------------------------------------
+Transaction # 116 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 22
+Data IN: 147
+Data OUT: 0
+---------------------------------------------------
+Transaction # 117 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 20
+Data IN: 136
+Data OUT: 0
+---------------------------------------------------
+Transaction # 118 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 16
+Data IN: 171
+Data OUT: 0
+---------------------------------------------------
+Transaction # 119 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 23
+Data IN: 255
+Data OUT: 0
+---------------------------------------------------
+Transaction # 120 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 19
+Data IN: 74
+Data OUT: 0
+---------------------------------------------------
+Transaction # 121 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 31
+Data IN: 5
+Data OUT: 0
+---------------------------------------------------
+Transaction # 122 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 1
+Data IN: 34
+Data OUT: 0
+---------------------------------------------------
+Transaction # 123 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 24
+Data IN: 210
+Data OUT: 0
+---------------------------------------------------
+Transaction # 124 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 14
+Data IN: 91
+Data OUT: 0
+---------------------------------------------------
+Transaction # 125 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 14
+Data IN: 67
+Data OUT: 0
+---------------------------------------------------
+Transaction # 126 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 22
+Data IN: 250
+Data OUT: 0
+---------------------------------------------------
+Transaction # 127 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 10
+Data IN: 134
+Data OUT: 0
+---------------------------------------------------
+Transaction # 128 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 20
+Data IN: 112
+Data OUT: 0
+---------------------------------------------------
+Transaction # 129 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 11
+Data IN: 186
+Data OUT: 0
+---------------------------------------------------
+Transaction # 130 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 15
+Data IN: 50
+Data OUT: 0
+---------------------------------------------------
+Transaction # 131 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 3
+Data IN: 236
+Data OUT: 0
+---------------------------------------------------
+Transaction # 132 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 12
+Data IN: 39
+Data OUT: 0
+---------------------------------------------------
+Transaction # 133 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 16
+Data IN: 33
+Data OUT: 0
+---------------------------------------------------
+Transaction # 134 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 12
+Data IN: 189
+Data OUT: 0
+---------------------------------------------------
+Transaction # 135 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 22
+Data IN: 58
+Data OUT: 0
+---------------------------------------------------
+Transaction # 136 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 17
+Data IN: 96
+Data OUT: 0
+---------------------------------------------------
+Transaction # 137 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 6
+Data IN: 242
+Data OUT: 0
+---------------------------------------------------
+Transaction # 138 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 28
+Data IN: 75
+Data OUT: 0
+---------------------------------------------------
+Transaction # 139 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 31
+Data IN: 111
+Data OUT: 0
+---------------------------------------------------
+Transaction # 140 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 13
+Data IN: 157
+Data OUT: 0
+---------------------------------------------------
+Transaction # 141 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 26
+Data IN: 145
+Data OUT: 0
+---------------------------------------------------
+Transaction # 142 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 5
+Data IN: 251
+Data OUT: 0
+---------------------------------------------------
+Transaction # 143 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 19
+Data IN: 15
+Data OUT: 0
+---------------------------------------------------
+Transaction # 144 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 18
+Data IN: 224
+Data OUT: 0
+---------------------------------------------------
+Transaction # 145 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 7
+Data IN: 52
+Data OUT: 0
+---------------------------------------------------
+Transaction # 146 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 18
+Data IN: 54
+Data OUT: 0
+---------------------------------------------------
+Transaction # 147 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 8
+Data IN: 39
+Data OUT: 0
+---------------------------------------------------
+Transaction # 148 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 22
+Data IN: 224
+Data OUT: 0
+---------------------------------------------------
+Transaction # 149 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 8
+Data IN: 68
+Data OUT: 0
+---------------------------------------------------
+Transaction # 150 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 3
+Data IN: 224
+Data OUT: 0
+---------------------------------------------------
+Transaction # 151 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 26
+Data IN: 43
+Data OUT: 0
+---------------------------------------------------
+Transaction # 152 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 29
+Data IN: 8
+Data OUT: 0
+---------------------------------------------------
+Transaction # 153 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 28
+Data IN: 157
+Data OUT: 0
+---------------------------------------------------
+Transaction # 154 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 16
+Data IN: 128
+Data OUT: 0
+---------------------------------------------------
+Transaction # 155 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 21
+Data IN: 21
+Data OUT: 0
+---------------------------------------------------
+Transaction # 156 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 3
+Data IN: 15
+Data OUT: 0
+---------------------------------------------------
+Transaction # 157 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 18
+Data IN: 2
+Data OUT: 0
+---------------------------------------------------
+Transaction # 158 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 30
+Data IN: 99
+Data OUT: 0
+---------------------------------------------------
+Transaction # 159 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 8
+Data IN: 209
+Data OUT: 0
+---------------------------------------------------
+Transaction # 160 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 15
+Data IN: 175
+Data OUT: 0
+---------------------------------------------------
+Transaction # 161 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 7
+Data IN: 231
+Data OUT: 0
+---------------------------------------------------
+Transaction # 162 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 0
+Data IN: 180
+Data OUT: 0
+---------------------------------------------------
+Transaction # 163 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 26
+Data IN: 175
+Data OUT: 0
+---------------------------------------------------
+Transaction # 164 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 27
+Data IN: 23
+Data OUT: 0
+---------------------------------------------------
+Transaction # 165 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 14
+Data IN: 188
+Data OUT: 0
+---------------------------------------------------
+Transaction # 166 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 21
+Data IN: 75
+Data OUT: 0
+---------------------------------------------------
+Transaction # 167 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 15
+Data IN: 127
+Data OUT: 0
+---------------------------------------------------
+Transaction # 168 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 6
+Data IN: 0
+Data OUT: 0
+---------------------------------------------------
+Transaction # 169 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 23
+Data IN: 167
+Data OUT: 0
+---------------------------------------------------
+Transaction # 170 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 4
+Data IN: 50
+Data OUT: 0
+---------------------------------------------------
+Transaction # 171 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 11
+Data IN: 105
+Data OUT: 0
+---------------------------------------------------
+Transaction # 172 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 23
+Data IN: 76
+Data OUT: 0
+---------------------------------------------------
+Transaction # 173 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 16
+Data IN: 129
+Data OUT: 0
+---------------------------------------------------
+Transaction # 174 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 9
+Data IN: 120
+Data OUT: 0
+---------------------------------------------------
+Transaction # 175 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 13
+Data IN: 55
+Data OUT: 0
+---------------------------------------------------
+Transaction # 176 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 7
+Data IN: 114
+Data OUT: 0
+---------------------------------------------------
+Transaction # 177 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 30
+Data IN: 156
+Data OUT: 0
+---------------------------------------------------
+Transaction # 178 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 31
+Data IN: 171
+Data OUT: 0
+---------------------------------------------------
+Transaction # 179 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 4
+Data IN: 85
+Data OUT: 0
+---------------------------------------------------
+Transaction # 180 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 25
+Data IN: 126
+Data OUT: 0
+---------------------------------------------------
+Transaction # 181 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 9
+Data IN: 140
+Data OUT: 0
+---------------------------------------------------
+Transaction # 182 Generated
+---------------------------------------------------
+Read: 1
+Write: 0
+Address: 8
+Data IN: 60
+Data OUT: 0
+---------------------------------------------------
+Transaction # 183 Generated
+---------------------------------------------------
+Read: 0
+Write: 1
+Address: 11
+Data IN: 197
+Data OUT: 0
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 27 | Data_In: 29 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 27 Data 29
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 8
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 8 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 29 | Data_In: 140 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 29 Data 140
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 9
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 9 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 27 | Data_In: 134 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 27 Data 134
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 10
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 10 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 2
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 2 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 3
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 3 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 5 | Data_In: 122 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 5 Data 122
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 12
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 12 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 13 | Data_In: 49 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 13 Data 49
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 25 | Data_In: 146 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 25 Data 146
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 22
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 22 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 15 | Data_In: 152 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 15 Data 152
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 24 | Data_In: 21 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 24 Data 21
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 9 | Data_In: 65 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 9 Data 65
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 4
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 4 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 15 | Data_In: 212 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 15 Data 212
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 24 | Data_In: 218 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 24 Data 218
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 4
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 4 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 30
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 30 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 1 | Data_In: 139 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 1 Data 139
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 29
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 29 | Data_Out: 140
+---Scoreboard: Data matched at addr 29
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 2
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 2 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 4
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 4 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 23
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 23 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 18
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 18 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 4 | Data_In: 224 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 4 Data 224
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 4 | Data_In: 73 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 4 Data 73
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 24
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 24 | Data_Out: 218
+---Scoreboard: Data matched at addr 24
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 19 | Data_In: 130 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 19 Data 130
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 21
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 21 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 9
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 9 | Data_Out: 65
+---Scoreboard: Data matched at addr 9
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 27 | Data_In: 119 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 27 Data 119
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 11 | Data_In: 159 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 11 Data 159
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 12 | Data_In: 158 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 12 Data 158
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 20
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 20 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 0
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 0 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 15 | Data_In: 29 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 15 Data 29
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 26 | Data_In: 92 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 26 Data 92
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 30
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 30 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 6
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 6 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 11 | Data_In: 254 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 11 Data 254
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 21 | Data_In: 68 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 21 Data 68
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 15
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 15 | Data_Out: 29
+---Scoreboard: Data matched at addr 15
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 5 | Data_In: 140 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 5 Data 140
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 12
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 12 | Data_Out: 158
+---Scoreboard: Data matched at addr 12
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 26 | Data_In: 65 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 26 Data 65
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 20
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 20 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 6
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 6 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 15
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 15 | Data_Out: 29
+---Scoreboard: Data matched at addr 15
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 15 | Data_In: 237 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 15 Data 237
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 19
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 19 | Data_Out: 130
+---Scoreboard: Data matched at addr 19
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 18
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 18 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 16
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 16 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 2
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 2 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 27 | Data_In: 0 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 27 Data 0
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 21
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 21 | Data_Out: 68
+---Scoreboard: Data matched at addr 21
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 1
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 1 | Data_Out: 139
+---Scoreboard: Data matched at addr 1
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 26
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 26 | Data_Out: 65
+---Scoreboard: Data matched at addr 26
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 29
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 29 | Data_Out: 140
+---Scoreboard: Data matched at addr 29
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 18
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 18 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 15 | Data_In: 65 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 15 Data 65
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 14
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 14 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 7 | Data_In: 59 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 7 Data 59
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 11 | Data_In: 120 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 11 Data 120
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 25
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 25 | Data_Out: 146
+---Scoreboard: Data matched at addr 25
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 24
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 24 | Data_Out: 218
+---Scoreboard: Data matched at addr 24
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 0
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 0 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 31 | Data_In: 109 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 31 Data 109
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 9 | Data_In: 243 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 9 Data 243
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 18 | Data_In: 7 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 18 Data 7
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 23
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 23 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 5 | Data_In: 192 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 5 Data 192
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 14 | Data_In: 159 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 14 Data 159
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 19
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 19 | Data_Out: 130
+---Scoreboard: Data matched at addr 19
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 27 | Data_In: 233 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 27 Data 233
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 0 | Data_In: 204 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 0 Data 204
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 18 | Data_In: 7 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 18 Data 7
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 20
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 20 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 17
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 17 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 8
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 8 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 23
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 23 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 28
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 28 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 3 | Data_In: 166 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 3 Data 166
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 15
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 15 | Data_Out: 65
+---Scoreboard: Data matched at addr 15
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 30 | Data_In: 50 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 30 Data 50
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 0 | Data_In: 239 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 0 Data 239
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 7 | Data_In: 82 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 7 Data 82
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 20 | Data_In: 194 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 20 Data 194
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 23 | Data_In: 139 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 23 Data 139
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 1
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 1 | Data_Out: 139
+---Scoreboard: Data matched at addr 1
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 13 | Data_In: 72 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 13 Data 72
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 10 | Data_In: 37 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 10 Data 37
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 29 | Data_In: 35 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 29 Data 35
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 13
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 13 | Data_Out: 72
+---Scoreboard: Data matched at addr 13
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 28
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 28 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 29 | Data_In: 239 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 29 Data 239
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 24
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 24 | Data_Out: 218
+---Scoreboard: Data matched at addr 24
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 26
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 26 | Data_Out: 65
+---Scoreboard: Data matched at addr 26
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 23
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 23 | Data_Out: 139
+---Scoreboard: Data matched at addr 23
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 24 | Data_In: 242 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 24 Data 242
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 28 | Data_In: 24 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 28 Data 24
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 27
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 27 | Data_Out: 233
+---Scoreboard: Data matched at addr 27
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 0
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 0 | Data_Out: 239
+---Scoreboard: Data matched at addr 0
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 11
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 11 | Data_Out: 120
+---Scoreboard: Data matched at addr 11
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 3 | Data_In: 171 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 3 Data 171
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 0
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 0 | Data_Out: 239
+---Scoreboard: Data matched at addr 0
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 28
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 28 | Data_Out: 24
+---Scoreboard: Data matched at addr 28
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 25 | Data_In: 110 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 25 Data 110
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 15 | Data_In: 194 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 15 Data 194
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 29
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 29 | Data_Out: 239
+---Scoreboard: Data matched at addr 29
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 29
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 29 | Data_Out: 239
+---Scoreboard: Data matched at addr 29
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 8
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 8 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 17
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 17 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 22
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 22 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 20 | Data_In: 136 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 20 Data 136
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 16
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 16 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 23
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 23 | Data_Out: 139
+---Scoreboard: Data matched at addr 23
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 19
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 19 | Data_Out: 130
+---Scoreboard: Data matched at addr 19
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 31 | Data_In: 5 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 31 Data 5
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 1 | Data_In: 34 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 1 Data 34
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 24
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 24 | Data_Out: 242
+---Scoreboard: Data matched at addr 24
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 14 | Data_In: 91 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 14 Data 91
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 14
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 14 | Data_Out: 91
+---Scoreboard: Data matched at addr 14
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 22
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 22 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 10 | Data_In: 134 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 10 Data 134
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 20
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 20 | Data_Out: 136
+---Scoreboard: Data matched at addr 20
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 11
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 11 | Data_Out: 120
+---Scoreboard: Data matched at addr 11
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 15
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 15 | Data_Out: 194
+---Scoreboard: Data matched at addr 15
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 3
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 3 | Data_Out: 171
+---Scoreboard: Data matched at addr 3
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 12 | Data_In: 39 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 12 Data 39
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 16 | Data_In: 33 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 16 Data 33
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 12
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 12 | Data_Out: 39
+---Scoreboard: Data matched at addr 12
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 22 | Data_In: 58 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 22 Data 58
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 17 | Data_In: 96 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 17 Data 96
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 6
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 6 | Data_Out: x
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 28 | Data_In: 75 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 28 Data 75
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 31 | Data_In: 111 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 31 Data 111
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 13 | Data_In: 157 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 13 Data 157
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 26
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 26 | Data_Out: 65
+---Scoreboard: Data matched at addr 26
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 5 | Data_In: 251 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 5 Data 251
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 19 | Data_In: 15 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 19 Data 15
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 18 | Data_In: 224 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 18 Data 224
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 7
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 7 | Data_Out: 82
+---Scoreboard: Data matched at addr 7
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 18
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 18 | Data_Out: 224
+---Scoreboard: Data matched at addr 18
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 8 | Data_In: 39 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 8 Data 39
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 22
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 22 | Data_Out: 58
+---Scoreboard: Data matched at addr 22
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 8
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 8 | Data_Out: 39
+---Scoreboard: Data matched at addr 8
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 3
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 3 | Data_Out: 171
+---Scoreboard: Data matched at addr 3
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 26
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 26 | Data_Out: 65
+---Scoreboard: Data matched at addr 26
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 29 | Data_In: 8 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 29 Data 8
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 28
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 28 | Data_Out: 75
+---Scoreboard: Data matched at addr 28
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 16 | Data_In: 128 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 16 Data 128
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 21
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 21 | Data_Out: 68
+---Scoreboard: Data matched at addr 21
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 3
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 3 | Data_Out: 171
+---Scoreboard: Data matched at addr 3
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 18 | Data_In: 2 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 18 Data 2
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 30 | Data_In: 99 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 30 Data 99
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 8 | Data_In: 209 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 8 Data 209
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 15 | Data_In: 175 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 15 Data 175
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 7
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 7 | Data_Out: 82
+---Scoreboard: Data matched at addr 7
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 0 | Data_In: 180 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 0 Data 180
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 26
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 26 | Data_Out: 65
+---Scoreboard: Data matched at addr 26
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 27 | Data_In: 23 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 27 Data 23
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 14 | Data_In: 188 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 14 Data 188
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 21 | Data_In: 75 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 21 Data 75
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 15
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 15 | Data_Out: 175
+---Scoreboard: Data matched at addr 15
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 6 | Data_In: 0 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 6 Data 0
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 23
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 23 | Data_Out: 139
+---Scoreboard: Data matched at addr 23
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 4 | Data_In: 50 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 4 Data 50
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 11 | Data_In: 105 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 11 Data 105
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 23
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 23 | Data_Out: 139
+---Scoreboard: Data matched at addr 23
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 16 | Data_In: 129 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 16 Data 129
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 9
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 9 | Data_Out: 243
+---Scoreboard: Data matched at addr 9
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 13 | Data_In: 55 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 13 Data 55
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 7
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 7 | Data_Out: 82
+---Scoreboard: Data matched at addr 7
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 30
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 30 | Data_Out: 99
+---Scoreboard: Data matched at addr 30
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 31
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 31 | Data_Out: 111
+---Scoreboard: Data matched at addr 31
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 4
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 4 | Data_Out: 50
+---Scoreboard: Data matched at addr 4
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 25 | Data_In: 126 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 25 Data 126
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 9 | Data_In: 140 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 9 Data 140
+
+
+--------------------------------------
+Driver -- Read Transaction
+--------------------------------------
+Addr: 8
+
+
+--------------------------------
+Monitor
+--------------------------------
+Addr: 8 | Data_Out: 209
+---Scoreboard: Data matched at addr 8
+
+
+--------------------------------------
+Driver -- Write Transaction
+--------------------------------------
+Addr: 11 | Data_In: 197 | Data_Out: 0
+
+
+*Scoreboard*: Wrote to Golden Model -  Addr 11 Data 197
+
+
+===========================================================================================
+TEST COMPLETED - RESULTS
+===========================================================================================
+Scoreboard Count: 183 | Scoreboard Errors: 0
+Task Completed
+Simulation complete via $finish(1) at time 1826 NS + 0
+./env.sv:69     $finish;
+xcelium> ^C
+xcelium> exit
+TOOL:	xrun(64)	23.09-s006: Exiting on Jun 18, 2025 at 19:39:55 PKT  (total: 00:11:39)
